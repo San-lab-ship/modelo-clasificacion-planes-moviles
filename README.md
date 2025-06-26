@@ -34,7 +34,7 @@ El modelo seleccionado final fue **Random Forest (n=50)** por su estabilidad y b
 | ---------- | -------------------- | ------------------------------------------------- | --------------------------------------------------------------------------- |
 | Validación | Exactitud (Accuracy) | `0.7962`                                          | Proporción de predicciones correctas durante la validación del modelo.      |
 | Prueba     | Exactitud (Accuracy) | `0.7885`                                          | Desempeño del modelo en datos no vistos (generalización).                   |
-| Prueba     | Matriz de Confusión  | ![Confusion Matrix](visuals/confusion_matrix.png) | Representación visual de aciertos y errores del modelo en la clasificación. |
+| Prueba     | Matriz de Confusión  | **                                                | Representación visual de aciertos y errores del modelo en la clasificación. |
 
 
 -El modelo predice correctamente la mayoría de los casos, especialmente para el plan **Smart**, aunque comete algunos falsos positivos con el plan **Ultra**.
@@ -48,6 +48,7 @@ El modelo fue validado con pruebas de robustez:
 - ✔️ Se supera el umbral mínimo de exactitud exigido por Megaline (0.75).
 
 ## Estructura del Proyecto
+
 .
 ├── modelo-clasificacion-megaline.ipynb
 ├── README.md
@@ -61,6 +62,3 @@ El modelo fue validado con pruebas de robustez:
 ├── requirements.txt
 └── utils/
     └── preprocessing.py
-
-
-
