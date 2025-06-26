@@ -49,7 +49,8 @@ El modelo fue validado con pruebas de robustez:
 
 ## Estructura del Proyecto
 
-.
+
+```
 ├── modelo-clasificacion-megaline.ipynb
 ├── README.md
 ├── data/
